@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="header__logo" href="#">
+                        <img class="header__logo-img" src="images/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="help">
+                    <div class="section__container">
+                        <div class="help__inner">
+                            <a class="help__link" href="index.html">Назад</a>
+                            <h4 class="help__title section__title">Задать вопрос</h4>
+                            <form class="help__form" action="">
+                                <input class="help__form-input" type="email" placeholder="Введите почту" required>
+                                <textarea class="help__form-textarea" placeholder="Ваш вопрос" required></textarea>
+                                <button class="help__form-btn btn">Задать вопрос</button>
+                            </form>
+                            <p class="help__subtitle">или</p>
+                            <div class="help__questions">
+                                <h4 class="help__questions-title section__title">Часто задаваемые</h4>
+                                <div class="help__questions-list">
+                                    <div class="help__questions-list__item">
+                                        <p class="help__questions-list__text">Вопрос №1</p>
+                                        <p class="help__questions-list__text">Ответ на вопрос №1</p>
+                                    </div>
+                                    <div class="help__questions-list__item">
+                                        <p class="help__questions-list__text">Вопрос №2</p>
+                                        <p class="help__questions-list__text">Ответ на вопрос №2</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help__list special__list">
+                                <a class="help__list-link special__link" href="about.html">О ArtHouse</a>
+                                <a class="help__list-link special__link" href="#">Правовая информация</a>
+                                <a class="help__list-link special__link --active" href="help.html">Помощь</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
